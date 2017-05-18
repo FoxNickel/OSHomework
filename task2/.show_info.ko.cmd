@@ -1,0 +1,1 @@
+cmd_/home/nickelfox/task2/show_info.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o /home/nickelfox/task2/show_info.ko /home/nickelfox/task2/show_info.o /home/nickelfox/task2/show_info.mod.o
